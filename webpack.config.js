@@ -3,6 +3,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 const miniCssExtractPlugin = require('mini-css-extract-plugin');
 const cssMiniminizerPlugin = require('css-minimizer-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
    entry: './src/index',
@@ -50,20 +51,10 @@ module.exports = {
          filename: './index.html'
       }),
       new htmlWebpackPlugin({
-        inject: true,
-        template: './public/commands.html',
-        filename: './commands.html'
-     }),
-    new htmlWebpackPlugin({
-       inject: true,
-       template: './public/credits.html',
-       filename: './credits.html'
-    }),
-    new htmlWebpackPlugin({
-       inject: true,
-       template: './public/support.html',
-       filename: './support.html'
-    }),
+         inject: true,
+         template: './public/app.html',
+         filename: './app.html'
+      }),
       new miniCssExtractPlugin({
          filename: "assets/[name].[contenthash].css"
       }),

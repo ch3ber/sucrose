@@ -50,19 +50,9 @@ module.exports = {
       }),
       new htmlWebpackPlugin({
          inject: true,
-         template: './public/commands.html',
-         filename: './commands.html'
+         template: './public/app.html',
+         filename: './app.html'
       }),
-     new htmlWebpackPlugin({
-        inject: true,
-        template: './public/credits.html',
-        filename: './credits.html'
-     }),
-     new htmlWebpackPlugin({
-        inject: true,
-        template: './public/support.html',
-        filename: './support.html'
-     }),
       new miniCssExtractPlugin({
          filename: "assets/[name].[contenthash].css"
       }),

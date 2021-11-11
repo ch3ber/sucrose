@@ -1,3 +1,10 @@
 @import './base/normalize';
+@import './base/vars';
+@import './base/globals';
+@import './base/utils';
 
+@import './layout/header';
 @import './layout/indexPage';
+@import './layout/app';
+@import './layout/commands';
+@import './layout/credits';

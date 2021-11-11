@@ -1,2 +1,4 @@
 import './styles/index.scss';
-import './js/indexPage';
+import router from './routes';
+
+window.addEventListener('hashchange', router);
