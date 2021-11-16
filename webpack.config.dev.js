@@ -40,6 +40,13 @@ module.exports = {
             test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2|webp)$/i,
             type: "asset",
          },
+         {
+            test: /\.(woff|woff2|eot|ttf|otf)$/i,
+            type: 'asset/resource',
+            generator: {
+               filename: "assets/fonts/[name].[contenthash].[ext]"
+            }
+         }
       ]
    },
    plugins: [

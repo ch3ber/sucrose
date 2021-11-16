@@ -1,4 +1,4 @@
-const Credits = () => {
+const Designers = () => {
    const view = `
       <div class="webdevs">
          <div class="webdevs__links">
@@ -6,10 +6,10 @@ const Credits = () => {
             <a href="#/botdevs">Bot Devs</a>
             <a href="#/design">Design</a>
          </div>
-         <p>Gracias!</p>
+         <p>designers</p>
       </div>
    `;
    return view;
 }
 
-export default Credits;
+export default Designers;

@@ -1,8 +1,11 @@
 @import './base/normalize';
+@import './base/fonts';
+@import './base/mixins';
 @import './base/vars';
 @import './base/globals';
 @import './base/utils';
 
+@import './layout/sidebar';
 @import './layout/header';
 @import './layout/indexPage';
 @import './layout/app';

@@ -1,0 +1,39 @@
+.app {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 0 3rem;
+   place-items: center stretch;
+   .app__links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.5rem;
+      .app__links--link {
+         font-size: 3.5rem;
+         font-weight: bold;
+         padding: 1.4rem;
+         text-decoration: none;
+         width: 90%;
+      }
+      .app__links--credits {
+         text-align: center;
+         padding: 1.4rem;
+         width: fit-content;
+         text-decoration: none;
+      }
+   }
+   .app__text {
+      color: $white;
+      font-size: 3rem;
+      margin-top: -4rem;
+      text-align: center;
+   }
+}
+@include media(414px) {
+   .app {
+      .app__text {
+         margin-top: -5rem;
+         font-size: 6rem;
+      }
+   }
+}

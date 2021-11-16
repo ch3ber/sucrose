@@ -1,0 +1,39 @@
+.Header{
+   margin: 2rem 4rem;
+   a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: nowrap;
+      text-decoration: none;
+
+      .surcrose_logo{
+         width:5rem;
+         margin-right:.5rem;
+         background-color: $greenColor;
+         border:5px solid rgb(10, 108, 79);
+         border-radius:10px;
+      }
+
+      .title{
+         margin:0;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:5rem;
+         color:$greenColor;
+      }
+   }
+
+}
+
+@include media(768px) {
+   .Header {
+      a {
+         .surcrose_logo{
+            width: 7rem;
+         }
+         .title {
+            font-size: 7rem;
+         }
+      }
+   }
+}
