@@ -7,7 +7,10 @@ html {
 }
 body {
    padding-top: 2rem;
-   background-color: $bgColor;
+   background-image: url('../assets/img/background.svg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
    min-height: 100vh;
    font-family: $font;
    font-size: 1.6rem;
