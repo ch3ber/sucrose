@@ -8,6 +8,7 @@ const WebDevs = () => {
          </div>
          <p>web devs</p>
       </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

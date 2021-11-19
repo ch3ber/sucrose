@@ -8,8 +8,9 @@ const App = () => {
             <a class="app__links--link button-shadow" href="https://paypal.me/Allergur123?country.x=ES&locale.x=es_E">Contribuir</a>
             <a class="app__links--credits button-shadow" href="#/credits">Creditos</a>
          </div>
-         <p class="app__text">Adelante!</p>
+         <p class="app__text await-transitionBar">Adelante!</p>
       </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

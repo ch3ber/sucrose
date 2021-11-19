@@ -8,6 +8,7 @@ const BotDevs = () => {
          </div>
          <p>Bot devs</p>
       </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

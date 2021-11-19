@@ -8,6 +8,7 @@ const Credits = () => {
          </div>
          <p>Gracias!</p>
       </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

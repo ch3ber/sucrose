@@ -14,8 +14,9 @@ const Commands = () => {
                <li class="button-shadow">Otros</li>
             </ul>
         </nav>
-        <p class="commands-descubre">Descubre!</p>
+        <p class="commands-descubre await-transitionBar">Descubre!</p>
      </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

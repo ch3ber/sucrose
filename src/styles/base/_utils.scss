@@ -17,3 +17,14 @@
    box-shadow: none;
    background-color: darken($greenColor, 20);
 }
+.await-transitionBar {
+   opacity: 0;
+   animation-name: delay;
+   animation-duration: 0ms;
+   animation-fill-mode: forwards;
+   animation-delay: 800ms;
+}
+@keyframes delay {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}

@@ -8,6 +8,7 @@ const Designers = () => {
          </div>
          <p>designers</p>
       </div>
+     <div class="transitionBar left-transition"></div>
    `;
    return view;
 }
