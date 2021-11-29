@@ -7,7 +7,6 @@ import marc from '../assets/img/botDevs/Marc.webp';
 import drgato from '../assets/img/botDevs/drgatoxd.webp';
 import frank from '../assets/img/botDevs/Frank.webp';
 import heart from '../assets/img/botDevs/Heart.webp';
-import sus from '../assets/img/botDevs/Sus.webp';
 
 const BotDevs = () => {
    const view = `
@@ -61,14 +60,6 @@ const BotDevs = () => {
             sanctus est Lorem ipsum dolor sit amet.
          `)}
  
-         ${DevCard(sus, 'Sus', `
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo
-            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-            sanctus est Lorem ipsum dolor sit amet.
-         `)}
-
        </ul>
      </div>
    </div>

@@ -13,7 +13,7 @@ const router = async () => {
 
    switch (location.hash) {
       case '#/commands':
-         header.innerHTML = await Header();
+         header.innerHTML = await Header('Comandos');
          content.innerHTML = await Commands();
          break;
       case '#/credits':
@@ -21,15 +21,15 @@ const router = async () => {
          content.innerHTML = await Credits();
          break;
       case '#/webdevs':
-         header.innerHTML = await Header();
+         header.innerHTML = await Header('Web Devs');
          content.innerHTML = await WebDevs();
          break;
       case '#/botdevs':
-         header.innerHTML = await Header();
+         header.innerHTML = await Header('Bot Devs');
          content.innerHTML = await BotDevs();
          break;
       case '#/design':
-         header.innerHTML = await Header();
+         header.innerHTML = await Header('Diseñadores');
          content.innerHTML = await Design();
          break;
       default:
