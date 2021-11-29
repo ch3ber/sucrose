@@ -1,7 +1,7 @@
-const DevCard = (imgSrc, name, description, githubSrc = '#') => {
+const DevCard = (imgSrc, name, description, githubUserName = '#') => {
    const view = `
       <li class="user">
-        <a href="${githubSrc}">
+        <a href="https://github.com/${githubUserName}">
           <img src="${imgSrc}" class="img-user" />
         </a>
         <div class="user-text">

@@ -1,4 +1,5 @@
 import CreditsMenu from '../templates/CreditsMenu';
+import DevCard from '../templates/DevCard';
 
 import marc from '../assets/img/webDevs/Marc.webp';
 import ch3ber from '../assets/img/webDevs/ch3ber.webp';
@@ -10,93 +11,39 @@ const WebDevs = () => {
   const view = `
   <div id="container" class="container-web">
 
-  <div class="users-div">
+  <div class="users-div await-transitionBar">
     <div class="users">
       <ul class="users-list">
-        <li class="user">
-          <a href="https://elmarcz.github.io/portfolio">
-            <img src="${ch3ber}" class="img-user" />
-          </a>
-          <div class="user-text">
-            <div class="h1-creditos">
-              <h1>ch3ber</h1>
-            </div>
-            <div class="p-creditos">
-              <p>
-                💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐
-                Cibersecurity lover 🌍Spain
-              </p>
-            </div>
-          </div>
-        </li>
+         
+         ${DevCard(ch3ber, 'ch3ber', `
+            Soy Eber Alejo un Frontend web developer y Freelancer originario de México,
+            actualmente estoy estudiando la carrera de desarrollo web en la preparatoria.
+            Soy un amante de la programación y de Linux 
+         `, 'ch3ber')}
 
-        <li class="user">
-          <a href="https://elmarcz.github.io/portfolio">
-            <img src="${pros}" class="img-user" />
-          </a>
-          <div class="user-text">
-            <div class="h1-creditos">
-              <h1>prospátheia</h1>
-            </div>
-            <div class="p-creditos">
-              <p>
-                💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐
-                Cibersecurity lover 🌍Spain
-              </p>
-            </div>
-          </div>
-        </li>
+         ${DevCard(marco, 'Marco', `
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+            sanctus est Lorem ipsum dolor sit amet.
+         `)}
 
-        <li class="user">
-        <a href="https://elmarcz.github.io/portfolio">
-          <img src="${marco}" class="img-user" />
-        </a>
-        <div class="user-text">
-          <div class="h1-creditos">
-            <h1>Marco Production</h1>
-          </div>
-          <div class="p-creditos">
-            <p>
-              💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐
-              Cibersecurity lover 🌍Spain
-            </p>
-          </div>
-        </div>
-      </li>
+         ${DevCard(alex, 'AlexDev', `
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+            sanctus est Lorem ipsum dolor sit amet.
+         `)}
 
-      <li class="user">
-      <a href="https://elmarcz.github.io/portfolio">
-        <img src="${alex}" class="img-user" />
-      </a>
-      <div class="user-text">
-        <div class="h1-creditos">
-          <h1>AlexDev</h1>
-        </div>
-        <div class="p-creditos">
-          <p>
-            💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐
-            Cibersecurity lover 🌍Spain
-          </p>
-        </div>
-      </div>
-    </li>
-
-    <li class="user">
-    <a href="https://elmarcz.github.io/portfolio">
-      <img src="${marc}" class="img-user" />
-    </a>
-    <div class="user-text">
-      <div class="h1-creditos">
-        <h1>爪卂尺匚</h1>
-      </div>
-      <div class="p-creditos">
-        <p>
-          💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐
-          Cibersecurity lover 🌍Spain
-        </p>
-      </div>
-    </div>
-  </li>
+         ${DevCard(marc, 'Marc', `
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+            sanctus est Lorem ipsum dolor sit amet.
+         `)}
         
       </ul>
     </div>

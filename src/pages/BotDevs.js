@@ -12,7 +12,7 @@ import sus from '../assets/img/botDevs/Sus.webp';
 const BotDevs = () => {
    const view = `
    <div id="container" class="container-web">
-   <div class="users-div">
+   <div class="users-div await-transitionBar">
      <div class="users">
        <ul class="users-list">
 
