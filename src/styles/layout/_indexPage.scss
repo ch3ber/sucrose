@@ -1,0 +1,20 @@
+body {
+   background-image: none;
+   background-color: $bgColor;
+}
+
+.index-page--center {
+   margin: 0 auto;
+}
+.index-page {
+   margin-left: 40%;
+   display: grid;
+   place-items: center center;
+   .index-page__text {
+      text-align: center;
+      color: $white;
+      font-size: 7rem;
+      font-weight: bold;
+   }
+}
+
