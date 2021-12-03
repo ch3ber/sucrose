@@ -16,15 +16,15 @@ const routes = {
    '/botdevs': BotDevs(),
    '/design': Design(),
    '/commands': Commands(),
-   //'/commands/actividades': commands('actividades'),
    '/commands/confesiones': Commands('confesiones'),
    '/commands/diversion': Commands('diversion'),
-   //'/commands/econonmia': Commands('econonmia'),
-   //'/commands/informacion': Commands('informacion'),
-   //'/commands/moderacion': Commands('moderacion'),
-   //'/commands/musica': Commands('musica'),
-   //'/commands/otros': Commands('otros'),
-   //'/commands/roleplay': Commands('roleplay'),
+   '/commands/economia': Commands('economia'),
+   '/commands/informacion': Commands('informacion'),
+   '/commands/juegos': Commands('juegos'),
+   '/commands/moderacion': Commands('moderacion'),
+   '/commands/musica': Commands('musica'),
+   '/commands/otros': Commands('otros'),
+   '/commands/roleplay': Commands('roleplay'),
 }
 
 const Error404 = () => '<p>Error 404</p>'

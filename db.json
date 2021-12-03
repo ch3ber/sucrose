@@ -1,33 +1,158 @@
 {
    "commands": {
-      "confesiones": [
+      "juegos": [
          {
             "id": 1,
-            "name": "setconfesiones",
-            "description": "setear el canal de confesiones"
+            "name": "banderasquiz",
+            "description": "Aprendete las banderas jugando"
          },
          {
             "id": 2,
-            "name": "confesar",
-            "description": "confiesa algo"
+            "name": "betrayal",
+            "description": "Juega un tipo de Amoung Us pero en un Chat de Voz"
          },
          {
-            "id": 5,
-            "name": "nose que mas poner",
-            "description": "mas descripcion"
-         }
-
-      ],
-      "diversion": [
-         {
             "id": 3,
-            "name": "comando de divesion",
-            "description": "descripcion o algo asi"
+            "name": "chess",
+            "description": "Juega Ajedrez pero en un Chat de Voz"
          },
          {
             "id": 4,
-            "name": "nose que mas poner",
-            "description": "mas descripcion"
+            "name": "doodlecrew",
+            "description": "Hechate unas risas Dibujando en un Chat de Voz"
+         },
+         {
+            "id": 5,
+            "name": "banderasquiz",
+            "description": "Aprendete las banderas jugando"
+         },
+         {
+            "id": 6,
+            "name": "banderasquiz",
+            "description": "Aprendete las banderas jugando"
+         }
+      ],
+      "confesiones": [
+         {
+            "id": 7,
+            "name": "setconfesiones",
+            "description": "Setear el canal de confesiones"
+         },
+         {
+            "id": 8,
+            "name": "confesar",
+            "description": "Confiesa tus mas sinceros secretos"
+         }
+      ],
+      "diversion": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "economia": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "informacion": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "moderacion": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "musica": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "otros": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ],
+      "roleplay": [
+         {
+            "id": 0,
+            "name": "comando",
+            "description": "descripcion"
+         }
+      ]
+   },
+   "devs": {
+      "webdevs": [
+         {
+            "id": 1,
+            "name": "ch3ber",
+            "bio": "hola soy ch3ber",
+            "github": "https://github.com/ch3ber",
+            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+         },
+         {
+            "id": 2,
+            "name": "Marc",
+            "bio": "hola soy Marc",
+            "github": "https://github.com/elmarcz",
+            "photo": "https://avatars.githubusercontent.com/u/83883889?v=4"
+         },
+         {
+            "id": 3,
+            "name": "Jlop",
+            "bio": "hola soy Jlop",
+            "github": "https://github.com/jlopcun",
+            "photo": "https://avatars.githubusercontent.com/u/62543437?v=4"
+         }
+      ],
+      "botdevs": [
+         {
+            "id": 1,
+            "name": "ch3ber",
+            "bio": "hola soy ch3ber",
+            "github": "https://github.com/ch3ber",
+            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+         },
+         {
+            "id": 2,
+            "name": "Allergur",
+            "bio": "hola soy Allergur",
+            "github": "https://github.com/ch3ber",
+            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+         },
+         {
+            "id": 3,
+            "name": "Marc",
+            "bio": "hola soy Marc",
+            "github": "https://github.com/elmarcz",
+            "photo": "https://avatars.githubusercontent.com/u/83883889?v=4"
+         }
+      ],
+      "designers": [
+         {
+            "id": 1,
+            "name": "4got",
+            "bio": "hola soy 4got",
+            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+         },
+         {
+            "id": 2,
+            "name": "Nicohrz",
+            "bio": "hola soy Nicohrz",
+            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
          }
       ]
    }

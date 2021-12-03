@@ -1,3 +1,5 @@
+import DB from '../../db.json';
+
 import DevCard from '../templates/DevCard';
 import CreditsMenu from '../templates/CreditsMenu';
 
@@ -8,12 +10,14 @@ import drgato from '../assets/img/botDevs/drgatoxd.webp';
 import frank from '../assets/img/botDevs/Frank.webp';
 import heart from '../assets/img/botDevs/Heart.webp';
 
-const BotDevs = () => {
+const BotDevs = async () => {
    const view = `
    <div id="container" class="container-web">
    <div class="users-div await-transitionBar">
      <div class="users">
        <ul class="users-list">
+
+         ${await DB.devs.botdevs.map(dev => ( DevCard(dev.photo, dev.name, dev.bio, dev.github))).join('')}
 
          ${DevCard(allergur, 'Allergur', `
             💻 Future Full Stack 💲 Cryptos 🔒 Security ☁️ Networking 🌐

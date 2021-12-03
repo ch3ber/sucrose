@@ -1,10 +1,12 @@
+import DB from '../../db.json';
+
 import DevCard from '../templates/DevCard';
 import CreditsMenu from '../templates/CreditsMenu';
 
 import got from '../assets/img/designers/4got.webp';
 import nico from '../assets/img/designers/Nicohrz.webp';
 
-const Designers = () => {
+const Designers = async () => {
    const view = `
    <div id="container" class="container-web">
 
@@ -12,22 +14,8 @@ const Designers = () => {
      <div class="users">
        <ul class="users-list">
 
-         ${DevCard(got, '4got', `
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo
-            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-            sanctus est Lorem ipsum dolor sit amet.
-         `)}
+         ${await DB.devs.designers.map(dev => ( DevCard(dev.photo, dev.name, dev.bio))).join('')}
 
-         ${DevCard(nico, 'Nicohrz', `
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo
-            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-            sanctus est Lorem ipsum dolor sit amet.
-         `)}
-         
        </ul>
      </div>
    </div>
