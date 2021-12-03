@@ -1,22 +1,15 @@
-const Commands = () => {
+import CommandsMenu from '../templates/CommandsMenu'
+import {resolveCommands} from '../utils/resolveCommands';
+
+const Commands = (commandsContent = null) => {
    const view = `
       <div class="commands">
-         <nav class="commands-menu">
-            <ul class="commands-menu__container">
-               <li class="button-shadow">Moderación</li>
-               <li class="button-shadow">Información</li>
-               <li class="button-shadow">Actividades</li>
-               <li class="button-shadow">Econonmía</li>
-               <li class="button-shadow">Diversión</li>
-               <li class="button-shadow">Confesiones</li>
-               <li class="button-shadow">Roleplay</li>
-               <li class="button-shadow">Música</li>
-               <li class="button-shadow">Otros</li>
-            </ul>
-        </nav>
-        <p class="commands-descubre await-transitionBar">Descubre!</p>
-     </div>
-     <div class="transitionBar left-transition"></div>
+         ${CommandsMenu()}
+         <div class="commands__list await-transitionBar">
+            ${resolveCommands(commandsContent)}
+         </div>
+      </div>
+      <div class="transitionBar left-transition"></div>
    `;
    return view;
 }

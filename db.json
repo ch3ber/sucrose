@@ -1,0 +1,34 @@
+{
+   "commands": {
+      "confesiones": [
+         {
+            "id": 1,
+            "name": "setconfesiones",
+            "description": "setear el canal de confesiones"
+         },
+         {
+            "id": 2,
+            "name": "confesar",
+            "description": "confiesa algo"
+         },
+         {
+            "id": 5,
+            "name": "nose que mas poner",
+            "description": "mas descripcion"
+         }
+
+      ],
+      "diversion": [
+         {
+            "id": 3,
+            "name": "comando de divesion",
+            "description": "descripcion o algo asi"
+         },
+         {
+            "id": 4,
+            "name": "nose que mas poner",
+            "description": "mas descripcion"
+         }
+      ]
+   }
+}
