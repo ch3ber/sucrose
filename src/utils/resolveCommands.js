@@ -3,7 +3,12 @@ import CommandCard from '../templates/CommandCard';
 
 export function resolveCommands(command) {
 
-   const DEFAULT_CONTENT = '<p class="commands-descubre await-transitionBar">Descubre!</p>'
+   const DEFAULT_CONTENT = `
+      <div class="command-card">
+         <p class="command-card__name">Descubre!</p>
+         <p class="command-card__text">Bienvenido a los comandos de sucrose</p>
+      </div>
+   `
 
    switch (command) {
       case 'confesiones':

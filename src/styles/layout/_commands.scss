@@ -19,6 +19,16 @@
             background-color: darken($greenColor, 20);
             box-shadow: none;
          }
+         .commands-descubre{
+            display: inline-block;
+            margin:0;
+            margin-right: 10rem;
+            color: $white;
+            font-weight: bold;
+            font-size: 100rem;
+            padding: 3rem;
+            background-color: $greenColor;
+         }
       }
    }
    .commands__list {
