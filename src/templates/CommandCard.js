@@ -1,4 +1,4 @@
-const CommandCard = (key, name, description) => {
+const CommandCard = (id, name, description) => {
    const view = `
       <div class="command-card">
          <h2 class="command-card__name">${name}</h2>

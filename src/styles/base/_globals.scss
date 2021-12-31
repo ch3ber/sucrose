@@ -6,14 +6,11 @@ html {
    box-sizing: border-box;
 }
 body {
-   padding-top: 2rem;
-   background-image: url('../assets/img/background.svg');
-   background-size: cover;
-   background-position: center center;
-   background-repeat: no-repeat;
-   min-height: 100vh;
+   height: 100vh;
+   max-height: 100vh;
    font-family: $font;
    font-size: 1.6rem;
+   background-color: $bgColor;
 }
 .Main {
    margin: 1rem 0;

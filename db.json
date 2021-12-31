@@ -23,13 +23,48 @@
          },
          {
             "id": 5,
-            "name": "banderasquiz",
-            "description": "Aprendete las banderas jugando"
+            "name": "fight",
+            "description": "Pelea contra tu oponente"
          },
          {
             "id": 6,
-            "name": "banderasquiz",
-            "description": "Aprendete las banderas jugando"
+            "name": "fishing",
+            "description": "Pesca con la comunidad en un Chat de Voz"
+         },
+         {
+            "id": 7,
+            "name": "lettertile",
+            "description": "Intenta buscar palabras en un Chat de Voz"
+         },
+         {
+            "id": 8,
+            "name": "logoquiz",
+            "description": "Aprendete los logos jugando"
+         },
+         {
+            "id": 9,
+            "name": "pokemonquiz",
+            "description": "Aprendete los pokemons jugando"
+         },
+         {
+            "id": 10,
+            "name": "poker",
+            "description": "Juega al poker en un Chat de Voz"
+         },
+         {
+            "id": 11,
+            "name": "tictactoe",
+            "description": "Un juego clasico, para una persona clasica"
+         },
+         {
+            "id": 12,
+            "name": "wordsnack",
+            "description": "Haz una sopa de letras en un Chat de Voz"
+         },
+         {
+            "id": 13,
+            "name": "spellcast",
+            "description": "Juega contra un bot a encontrar palabras"
          }
       ],
       "confesiones": [
@@ -47,36 +82,419 @@
       "diversion": [
          {
             "id": 0,
-            "name": "comando",
-            "description": "descripcion"
+            "name": "8ball",
+            "description": "realizar una pregunta a sucrose,el cual responderá (a veces) de la forma adecuada"
+         },
+         {
+            "id": 1,
+            "name": "baka",
+            "description": "muestra un GIF llamando baka(imbécil)"
+         },
+         {
+            "id": 2,
+            "name": "banana",
+            "description": "muestra un platanete bailando celebrando o burlandose de tu tamaño de n3p3,mostrado en la parte superior del mensaje"
+         },
+         {
+            "id": 3,
+            "name": "cat",
+            "description": "posiblemente el mejor comando de discord,insertar la imagen de un lindo gatito"
+         },
+         {
+            "id": 4,
+            "name": "dog",
+            "description": "no tan guay como sc!cat,hace lo mismo pero mostrando la imagen de uno o varios perretes"
+         },
+         {
+            "id": 5,
+            "name": "baka",
+            "description": "muestra un GIF llamando baka(imbécil)"
+         },
+         {
+            "id": 6,
+            "name": "fox",
+            "description": "muestra la imagen de un zorro, o zorra ;)"
+         },
+         {
+            "id": 7,
+            "name": "fulbo",
+            "description": "sientete Lionel Andrés Messi y dispara tu chut definitivo contra el arquero de sucrose"
+         },
+         {
+            "id": 8,
+            "name": "gdtag",
+            "description": "crea una card con una foto de un robot random y un nombre random con el mensaje indicado a tras un espacio como descripción"
+         },
+         {
+            "id": 9,
+            "name": "grasa",
+            "description": "vacila a tus amigos convirtiendo sus fotos de usuario en el logo de la grasa, para ello indica tras un espacio el tag de tu amigo @amigo"
+         },
+         {
+            "id": 10,
+            "name": "hack",
+            "description": "con este comando podrás hackiar a uno de tus colegas para sentirte como el mismisimo anonymous"
+         },{
+            "id": 11,
+            "name": "jumbo",
+            "description": "retorna un mensaje con la imagen del emote expresado tras un espacio"
+         },{
+            "id": 12,
+            "name": "koala",
+            "description": "imprime en pantalla la imagen de un lindo koala :)"
+         },{
+            "id": 13,
+            "name": "lisa",
+            "description": "imprime en pantalla una imagen de lisa presentando el texto indicado tras un espacio"
+         },{
+            "id": 14,
+            "name": "meme",
+            "description": "imprime en pantalla un meme random"
+         },{
+            "id": 15,
+            "name": "morse",
+            "description": "traduce a morse el texto indicado tras un espacio"
+         },{
+            "id": 16,
+            "name": "panda",
+            "description": "imprime en pantalla la imagen de un pandita feliz :)"
+         },{
+            "id": 17,
+            "name": "rip",
+            "description": "mata y entierra a un amigo tuyo"
+         },{
+            "id": 18,
+            "name": "rps",
+            "description": "juega al piedra papel tijera indicando tu elección tras un espacio"
+         },{
+            "id": 19,
+            "name": "salchipapa",
+            "description": "muestra la imagen de una deliciosa salchipapa hay que cosa tan sabrosa"
+         },{
+            "id": 20,
+            "name": "say",
+            "description": "sucrose dice lo que le indiques tras un espacio"
+         },{
+            "id": 21,
+            "name": "sus",
+            "description": "expulsa de la nave a un amigo como en among us"
+         },{
+            "id": 22,
+            "name": "tweet",
+            "description": "sucrose tweetea el mensaje indicado tras un espacio"
+         },{
+            "id": 23,
+            "name": "honry",
+            "description": "te proporciona la licencia para estar honry"
+         },{
+            "id": 24,
+            "name": "gay",
+            "description": "indica que tato porciento gay es el usuario mencionado tras un espacio"
+         },{
+            "id": 24,
+            "name": "simp",
+            "description": "indica que tan simpo es el usuario mencionado tras un espacio"
+         },{
+            "id": 25,
+            "name": "jail",
+            "description": "encarcela a el usuario mencionado tras un espacio"
+         },{
+            "id": 26,
+            "name": "lolice",
+            "description": "lolice al usuario indicado tras un espacio"
+         },{
+            "id": 27,
+            "name": "missionpassed",
+            "description": "el usuario mencionado tras un espacio ha completado la mision y gana +repect"
+         },{
+            "id": 28,
+            "name": "trigger",
+            "description": "triggerea al usuraio mencionado tras un espacio"
+         },{
+            "id": 29,
+            "name": "wasted",
+            "description": "el usuario mencionado tras un espacio ha muelto :("
+         },{
+            "id": 30,
+            "name": "petpet",
+            "description": ""
          }
       ],
       "economia": [
          {
             "id": 0,
-            "name": "comando",
-            "description": "descripcion"
+            "name": "balance",
+            "description": "muestra la cantidad de dinero que tienes en efectivo,en el banco y el total"
+         },{
+            "id": 1,
+            "name": "beg",
+            "description": "pide dinero a diferentes personajes y estos te ignoraran por pobre"
+         },{
+            "id": 2,
+            "name": "buy",
+            "description": "compra items en la tienda y escoje una cantidad del mismo"
+         },{
+            "id": 3,
+            "name": "daily",
+            "description": "recoje tu bonificación diaria"
+         },{
+            "id": 4,
+            "name": "deposit",
+            "description": "deposita dinero en el banco"
+         },{
+            "id": 5,
+            "name": "fish",
+            "description": "podrás pescar en caso de tener una caña,en caso contrario puedes llorar :("
+         },{
+            "id": 6,
+            "name": "gift",
+            "description": "regala un item a cualquier usuario del servidor, para ello, indica el item tras un espacio y el usuario tras otro espacio"
+         },{
+            "id": 7,
+            "name": "hunt",
+            "description": "podrás cazar en caso de tener un rifle de caza,en caso contrario puedes llorar :("
+         },{
+            "id": 8,
+            "name": "inventory",
+            "description": "muestra los items que tienes en tu inventario"
+         },{
+            "id": 9,
+            "name": "leaderboard",
+            "description": "muestra la leaderboard económica del server,aunque tu que eres pobre seguramente no aparezcas"
+         },{
+            "id": 10,
+            "name": "pay",
+            "description": "pagale a un usuario mencionadolo tras un espacio y la cantidad que deseas pagar tras otro espacio"
+         },{
+            "id": 11,
+            "name": "postmeme",
+            "description": "podrás postear un meme y ganar dinerito por su viralización,pero para ello necesitas un celular asi que vete olvidandote de ello"
+         },{
+            "id": 12,
+            "name": "rob",
+            "description": "puedes robar al usuario mencionado tras un espacio,pero necesitas más de 600$,osea que o eres rico o no robas"
+         },{
+            "id": 13,
+            "name": "roulette",
+            "description": "apuesta por un color indicado tras un espacio y la cantidad tras otro espacio,si pierdes,pierdes dinero,si ganas,ganas dinero"
+         },{
+            "id": 14,
+            "name": "search",
+            "description": "busca en diferentes lugares para obtener dinerito,pero cuidado,en tu busca podrás morir"
+         },{
+            "id": 15,
+            "name": "sell",
+            "description": "vende un item indicandolo tras un espacio e indicando tras otro espacio su cantidad"
+         },{
+            "id": 16,
+            "name": "settings",
+            "description": "te devuelve los ajustes de tu cuenta bancaria"
+         },{
+            "id": 17,
+            "name": "shop",
+            "description": "te muestra una lista con todos los items que puedes comprar en la tienda"
+         },{
+            "id": 18,
+            "name": "top",
+            "description": "te muestra los 5 usuarios más ricos del servidor"
+         },{
+            "id": 19,
+            "name": "use",
+            "description": "usa el item indicado tras un espacio"
+         },{
+            "id": 20,
+            "name": "withdraw",
+            "description": "retira la cantidad de dinero,indicada tras un espacio,de tu banco"
+         },{
+            "id": 21,
+            "name": "work",
+            "description": "trabaja para conseguir una remuneración justa"
          }
       ],
       "informacion": [
          {
             "id": 0,
-            "name": "comando",
-            "description": "descripcion"
+            "name": "botinfo",
+            "description": "muestra la información del bot de sucrose"
+         },{
+            "id":1,
+            "name":"donate",
+            "description":"puedes donar al bot mediante paypal o votar por el en top.gg y My Bot List"
+         },{
+            "id":2,
+            "name":"help",
+            "description":"muestra un menu de ayuda con todos los comandos pertenecientes a sucrose"
+         },{
+            "id":3,
+            "name":"info",
+            "description":"muestra la información del comando indicado tras un espacio"
+         },{
+            "id":4,
+            "name":"invitebot",
+            "description":"invita a un bot indicando su ID tras un espacio"
+         },{
+            "id":5,
+            "name":"invite",
+            "description":"invita al bot mencionado tras un espacio"
+         },{
+            "id":6,
+            "name":"ping",
+            "description":"muestra el ping del servidor"
+         },{
+            "id":7,
+            "name":"reportbug",
+            "description":"reporta un bug indicandolo tras un espacio"
          }
       ],
       "moderacion": [
          {
             "id": 0,
-            "name": "comando",
-            "description": "descripcion"
+            "name": "ban",
+            "description": "banea al usuario mencionado tras un espacio aportando una razón tras otro espacio"
+         },{
+            "id": 1,
+            "name": "clear",
+            "description": "limpia la cantidad de mensajes indicados tras un espacio de un canal"
+         },{
+            "id": 2,
+            "name": "clearwarns",
+            "description": "remueve los warnings del usuario indicado tras un espacio"
+         },{
+            "id": 3,
+            "name": "kick",
+            "description": "kickea a el usuario mencionado tras un espacio indicando la razón tras otro espacio"
+         },{
+            "id": 4,
+            "name": "lock",
+            "description": "cierra el cancal mencionado tras un espacio"
+         },{
+            "id": 5,
+            "name": "mute",
+            "description": "mutea al usuario mencionado tras un espacio indicando el tiempo tras otro espacio y la razón tras otro"
+         },{
+            "id": 6,
+            "name": "logs",
+            "description": "setea el canal de logs de moderación indicando el canal tras un espacio"
+         },{
+            "id": 7,
+            "name": "setmodlogs",
+            "description": "Setea el canal de logs de moderación, los logs de moderación son similares a los logs normales, pero avisan cuando es usado algún comando de moderación"
          }
       ],
       "musica": [
          {
             "id": 0,
-            "name": "comando",
-            "description": "descripcion"
+            "name": "play",
+            "description": "reproduce la canción indicada tras un espacio"
+         },{
+            "id": 1,
+            "name": "skip",
+            "description": "salta la canción que este sonando en ese momento"
+         },{
+            "id": 2,
+            "name": "pause",
+            "description": "pausa la canción que este sonando en ese momento"
+         },{
+            "id": 3,
+            "name": "resume",
+            "description": "sigue reproduciendo la canción actual en caso de que este pausada"
+         },{
+            "id": 4,
+            "name": "volume",
+            "description": "sube o baja el volumen de las canciones"
+         },{
+            "id": 5,
+            "name": "loop",
+            "description": "reproduce en bucle la canción actual"
+         },{
+            "id": 6,
+            "name": "queue",
+            "description": "mira la cola de reproducción del servidor"
+         },{
+            "id": 7,
+            "name": "stop",
+            "description": "detiene la cola de reproducción"
+         },{
+            "id": 8,
+            "name": "filter",
+            "description": "establece el filtro indicado tras un espacio a la lista de reproducción"
+         }
+      ],
+      "sorteos":[
+         {
+            "id": 0,
+            "name": "giveawaycreate",
+            "description": "crea un sorteo indicando la duración,la cantidad de ganadores y el premio(separados entre sí por espacios)"
+         },{
+            "id": 1,
+            "name": "giveawayend",
+            "description": "termina un sorteo indicando tras un espacio el id del mismo"
+         },{
+            "id": 2,
+            "name": "giveawayreroll",
+            "description": "haz un reroll del sorteo cuyo id es indicado tras un espacio"
+         }
+      ],
+      "configuración":[
+         {
+            "id":0,
+            "name":"disable",
+            "description":"deshabilita el comando indicado tras un espacio"
+         },{
+            "id":1,
+            "name":"enable",
+            "description":"habilita el comando deshabilitado indicado tras un espacio"
+         },{
+            "id":0,
+            "name":"setprefix",
+            "description":"establece el prefijo del servidor"
+         },{
+            "id":0,
+            "name":"scamlinks",
+            "description":"Activa o desactiva el detector de scamlinks en el servidor, esto detecta algunos links scam y los elimina automáticamente y advierte inmediatamente al usuario"
+         }
+      ],
+      "utitlidades":[
+         {
+            "id":0,
+            "name":"avatar",
+            "description":"imprime en pantalla el avatar del usuario mencionado o indicando su id tras un espacio" 
+         },{
+            "id":1,
+            "name":"banner",
+            "description":"imprime en pantalla el banner del usuario mencionado o indicando su id tras un espacio"
+         },{
+            "id":2,
+            "name":"editsnipe",
+            "description":"muestra el último mensaje editado en el canal indicado tras un espacio"
+         },{
+            "id":3,
+            "name":"serverinfo",
+            "description":"muestra la información del servidor"
+         },{
+            "id":4,
+            "name":"snipe",
+            "description":"muestra mensajes elimindos en el canal indicado tras un espacio"
+         },{
+            "id":5,
+            "name":"userinfo",
+            "description":"muestra la información del usuario mencionado tras un espacio"
+         },{
+            "id":6,
+            "name":"weather",
+            "description":"muestra como está el tiempo en el lugar indicado tras un espacio"
+         },{
+            "id":7,
+            "name":"youtube",
+            "description":"inicia una transimisión en youtube"
+         },{
+            "id":8,
+            "name":"calculadora",
+            "description":"muestra en pantalla una calculadora funcional"
+         },{
+            "id":9,
+            "name":"traductor",
+            "description":"traduce al idioma indicado tras un espacio el texto indicado a continuación"
          }
       ],
       "otros": [
@@ -112,8 +530,8 @@
          },
          {
             "id": 3,
-            "name": "Jlop",
-            "bio": "hola soy Jlop",
+            "name": "Jlopcun",
+            "bio": "hola soy Jlopcun",
             "github": "https://github.com/jlopcun",
             "photo": "https://avatars.githubusercontent.com/u/62543437?v=4"
          }

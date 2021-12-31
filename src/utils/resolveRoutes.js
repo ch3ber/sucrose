@@ -4,7 +4,6 @@ export const resolveRoutes = (route) => {
    if (route.length === 1) return `/${route[0]}`
 
    if (route.length === 2) {
-      console.log(`/${route[0]}/${route[1]}`)
       return `/${route[0]}/${route[1]}`
    }
 }

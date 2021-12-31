@@ -14,6 +14,7 @@ const CommandsMenu = () => {
          </ul>
      </nav>
    `;
+
    return view;
 }
 

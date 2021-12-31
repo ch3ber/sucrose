@@ -35,7 +35,6 @@ const router = async () => {
 
    let hash = getRoute();
    let route = resolveRoutes(hash);
-   console.log(route)
    let render = routes[route] ? routes[route] : Error404()
    if (route == '/credits') {
       header.innerHTML = await Header('Creditos')
