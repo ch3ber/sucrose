@@ -1,11 +1,10 @@
-const CommandCard = (id, name, description) => {
-   const view = `
-      <div class="command-card">
-         <h2 class="command-card__name">sc!${name}</h2>
-         <p class="command-card__text">${description}</p>
-      </div>
-   `;
-   return view;
-}
+import React from 'react'
 
-export default CommandCard;
+export const CommandCard = ({ id, name, description }) => {
+  return (
+    <div className='command-card'>
+      <h2 className='command-card__name'>sc!{name}</h2>
+      <p className='command-card__text'>{description}</p>
+    </div>
+  )
+}

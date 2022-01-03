@@ -1,20 +1,19 @@
-const DevCard = (imgSrc, name, description, githubUserName = '#') => {
-   const view = `
-      <li class="user">
-        <a href="https://github.com/${githubUserName}">
-          <img src="${imgSrc}" class="img-user" />
-        </a>
-        <div class="user-text">
-          <div class="h1-creditos">
-            <h2>${name}</h2>
-          </div>
-          <div class="p-creditos">
-            <p>${description}</p>
-          </div>
-        </div>
-      </li>
-   `;
-   return view;
-}
+import React from 'react'
 
-export default DevCard;
+export const DevCard = ({ photo, name, description, github = '#' }) => {
+  return (
+    <li className='user'>
+      <a href={github}>
+        <img src={photo} className='img-user' />
+      </a>
+      <div className='user-text'>
+        <div className='h1-creditos'>
+          <h2>{name}</h2>
+        </div>
+        <div className='p-creditos'>
+          <p>{description}</p>
+        </div>
+      </div>
+    </li>
+  )
+}
