@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import { Header } from '../templates/Header'
-import { CommandCard } from '../templates/CommandCard'
+import React, { useState } from 'react'
+import { Header } from '../components/Header'
+import { CommandCard } from '../components/CommandCard'
 import db from '../../db.json'
 
 export const Commands = () => {
@@ -13,9 +13,18 @@ export const Commands = () => {
 
   const [commandsList, setCommandList] = useState(DEFAULT_CONTENT)
 
+  function getCommandsNames () {
+    const data = Object.keys(db.commands)
+    console.log(data)
+    return data
+  }
+
+  const COMMANDS_NAMES = getCommandsNames()
+
   function changeCategory (category) {
-    const newCategory = db.commands[category]
-      .map(commandInfo => <CommandCard {...commandInfo} key={commandInfo.id} />)
+    const newCategory = db.commands[category].map((commandInfo) => (
+      <CommandCard {...commandInfo} key={commandInfo.id} />
+    ))
     setCommandList(newCategory)
   }
 
@@ -25,20 +34,16 @@ export const Commands = () => {
       <div className='commands'>
         <nav className='commands-menu'>
           <ul className='commands-menu__container'>
-            <li className='button-shadow'><span onClick={() => changeCategory('confesiones')}>Confesiones</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('diversion')}>Diversión</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('economia')}>Economía</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('informacion')}>Información</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('juegos')}>Juegos</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('moderacion')}>Moderación</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('musica')}>Música</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('otros')}>Otros</span></li>
-            <li className='button-shadow'><span onClick={() => changeCategory('roleplay')}>Roleplay</span></li>
+            {COMMANDS_NAMES.map((command) => (
+              <li key={command} className='button-shadow'>
+                <span onClick={() => changeCategory(command)}>
+                  {command.toUpperCase()}
+                </span>
+              </li>
+            ))}
           </ul>
         </nav>
-        <div className='commands__list await-transitionBar'>
-          {commandsList}
-        </div>
+        <div className='commands__list await-transitionBar'>{commandsList}</div>
       </div>
     </>
   )

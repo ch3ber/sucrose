@@ -1,16 +1,25 @@
 import React, { useState } from 'react'
-import { Header } from '../templates/Header'
-import { DevCard } from '../templates/DevCard'
+import { Header } from '../components/Header'
+import { DevCard } from '../components/DevCard'
 import db from '../../db.json'
 
 export const Credits = () => {
-  const DEFAULT_CONTENT = (<p className='unknow'>Gracias!</p>)
+  const DEFAULT_CONTENT = <p className='unknow'>Gracias!</p>
 
   const [devsList, setDevsList] = useState(DEFAULT_CONTENT)
 
+  function getDevCategories () {
+    const data = Object.keys(db.devs)
+    console.log(data)
+    return data
+  }
+
+  const DEV_CATEGORIES = getDevCategories()
+
   function changeContent (newContentQuery) {
-    const newContent = db.devs[newContentQuery]
-      .map(devInfo => <DevCard {...devInfo} key={devInfo.id} />)
+    const newContent = db.devs[newContentQuery].map((devInfo) => (
+      <DevCard {...devInfo} key={devInfo.id} />
+    ))
     setDevsList(newContent)
   }
 
@@ -20,18 +29,22 @@ export const Credits = () => {
 
       <div className='menu-div'>
         <div className='menu'>
-          <span onClick={() => changeContent('webdevs')} className='button-shadow active'>Web Devs</span>
-          <span onClick={() => changeContent('botdevs')} className='button-shadow'>Bot Devs</span>
-          <span onClick={() => changeContent('designers')} className='button-shadow'>Designers</span>
+          {DEV_CATEGORIES.map((category) => (
+            <span
+              key={category}
+              onClick={() => changeContent(category)}
+              className='button-shadow active'
+            >
+              {category.toUpperCase()}
+            </span>
+          ))}
         </div>
       </div>
 
       <div id='container' className='container-web'>
         <div className='users-div await-transitionBar'>
           <div className='users'>
-            <ul className='users-list'>
-              {devsList}
-            </ul>
+            <ul className='users-list'>{devsList}</ul>
           </div>
         </div>
       </div>

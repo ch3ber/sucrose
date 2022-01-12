@@ -12,13 +12,11 @@ const ROOT_ELEMENT = 'app'
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-
       <Route exact path='/' element={<Welcome />} />
       <Route exact path='/home' element={<App />} />
       <Route exact path='/commands' element={<Commands />} />
       <Route exact path='/credits' element={<Credits />} />
-
     </Routes>
-  </BrowserRouter>
-  , document.getElementById(ROOT_ELEMENT)
+  </BrowserRouter>,
+  document.getElementById(ROOT_ELEMENT)
 )
