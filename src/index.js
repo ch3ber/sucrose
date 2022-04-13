@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { App } from './App'
 import { Commands } from './pages/Commands'
-import { Credits } from './pages/Credits'
+import { Credits } from './pages/Credits/index'
 import { Welcome } from './pages/Welcome'
 import './styles/index.scss'
 

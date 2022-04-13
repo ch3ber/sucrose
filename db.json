@@ -538,39 +538,33 @@
       ],
       "botdevs": [
          {
-            "id": 1,
-            "name": "ch3ber",
-            "bio": "hola soy ch3ber",
-            "github": "https://github.com/ch3ber",
-            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+            "id": 4,
+            "name": "xTheSebasx",
+            "bio": "Desarrollador de bots para Discord",
+            "github": "https://github.com/xTheSebaSx-afk",
+            "photo": "https://avatars.githubusercontent.com/u/61850374?v=4"
          },
          {
-            "id": 2,
+            "id": 5,
             "name": "Allergur",
             "bio": "hola soy Allergur",
-            "github": "https://github.com/ch3ber",
-            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+            "github": "https://github.com/",
+            "photo": "https://cdn.discordapp.com/avatars/389081228864913410/7800d24dd99714a064cacc93a9a12471.webp?size=2048"
          },
          {
-            "id": 3,
-            "name": "Marc",
-            "bio": "hola soy Marc",
-            "github": "https://github.com/elmarcz",
-            "photo": "https://avatars.githubusercontent.com/u/83883889?v=4"
+            "id": 6,
+            "name": "Alvaro203204",
+            "bio": "hola soy Alvaro",
+            "github": "https://github.com/",
+            "photo": "https://cdn.discordapp.com/avatars/588405590083239946/93ec814b4266ee1a4c54b25ff9d63387.webp?size=2048"
          }
       ],
       "designers": [
          {
-            "id": 1,
-            "name": "4got",
-            "bio": "hola soy 4got",
-            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
-         },
-         {
-            "id": 2,
-            "name": "Nicohrz",
-            "bio": "hola soy Nicohrz",
-            "photo": "https://avatars.githubusercontent.com/u/73416354?v=4"
+            "id": 7,
+            "name": "souEmma",
+            "bio": "hola soy souEmma",
+            "photo": "https://cdn.discordapp.com/avatars/760349720429330445/91f0631559fc1d3b138b99a0bbc0f431.webp?size=2048"
          }
       ]
    }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const DevCard = ({ photo, name, description, github = '#' }) => {
+export const DevCard = ({ photo, name, bio, github = '#' }) => {
   return (
     <li className='user'>
       <a href={github}>
@@ -11,7 +11,7 @@ export const DevCard = ({ photo, name, description, github = '#' }) => {
           <h2>{name}</h2>
         </div>
         <div className='p-creditos'>
-          <p>{description}</p>
+          <p>{bio}</p>
         </div>
       </div>
     </li>

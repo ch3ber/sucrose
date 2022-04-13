@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import { Header } from '../components/Header'
-import { DevCard } from '../components/DevCard'
-import db from '../../db.json'
+import { Header } from '../../components/Header'
+import { DevCard } from '../../components/DevCard'
+import db from '../../../db.json'
+
+import { Container } from './styles'
 
 export const Credits = () => {
   const DEFAULT_CONTENT = <p className='unknow'>Gracias!</p>
@@ -27,7 +29,7 @@ export const Credits = () => {
     <>
       <Header />
 
-      <div className='menu-div'>
+      <Container>
         <div className='menu'>
           {DEV_CATEGORIES.map((category) => (
             <span
@@ -39,17 +41,13 @@ export const Credits = () => {
             </span>
           ))}
         </div>
-      </div>
 
-      <div id='container' className='container-web'>
         <div className='users-div await-transitionBar'>
-          <div className='users'>
-            <ul className='users-list'>{devsList}</ul>
-          </div>
+          <ul className='users-list'>{devsList}</ul>
         </div>
-      </div>
 
-      <div className='transitionBar left-transition' />
+        <div className='transitionBar left-transition' />
+      </Container>
     </>
   )
 }
