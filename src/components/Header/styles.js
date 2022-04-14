@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 import { Link as LinkRoute } from 'react-router-dom'
+import { vars } from '../../styles/vars'
 
 export const Header = styled.header`
   margin: 0 4rem;
+  height: ${vars.headerHeight};
 `
 
 export const Link = styled(LinkRoute)`

@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components'
+
+export const Normalize = createGlobalStyle`
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -16,39 +19,18 @@
   /* Sections
      ========================================================================== */
   
-  /**
-   * Remove the margin in all browsers.
-   */
-  
   body {
     margin: 0;
   }
-  
-  /**
-   * Render the `main` element consistently in IE.
-   */
   
   main {
     display: block;
   }
   
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-  
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
   }
-  
-  /* Grouping content
-     ========================================================================== */
-  
-  /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
   
   hr {
     box-sizing: content-box; /* 1 */
@@ -56,22 +38,10 @@
     overflow: visible; /* 2 */
   }
   
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
   pre {
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
   }
-  
-  /* Text-level semantics
-     ========================================================================== */
-  
-  /**
-   * Remove the gray background on active links in IE 10.
-   */
   
   a {
     background-color: transparent;
@@ -96,12 +66,6 @@
   strong {
     font-weight: bolder;
   }
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
   code,
   kbd,
   samp {
@@ -109,18 +73,9 @@
     font-size: 1em; /* 2 */
   }
   
-  /**
-   * Add the correct font size in all browsers.
-   */
-  
   small {
     font-size: 80%;
   }
-  
-  /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
   
   sub,
   sup {
@@ -230,13 +185,6 @@
     padding: 0.35em 0.75em 0.625em;
   }
   
-  /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-  
   legend {
     box-sizing: border-box; /* 1 */
     color: inherit; /* 2 */
@@ -300,11 +248,6 @@
     -webkit-appearance: none;
   }
   
-  /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
-   */
-  
   ::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
@@ -347,3 +290,4 @@
   [hidden] {
     display: none;
   }
+`

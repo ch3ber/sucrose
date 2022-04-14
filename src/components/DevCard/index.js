@@ -1,19 +1,16 @@
 import React from 'react'
+import { UserCard, ImgProfile, Bio } from './styles'
 
 export const DevCard = ({ photo, name, bio, github = '#' }) => {
   return (
-    <li className='user'>
+    <UserCard>
       <a href={github}>
-        <img src={photo} className='img-user' />
+        <ImgProfile src={photo} className='img-user' />
       </a>
-      <div className='user-text'>
-        <div className='h1-creditos'>
-          <h2>{name}</h2>
-        </div>
-        <div className='p-creditos'>
-          <p>{bio}</p>
-        </div>
+      <div>
+        <h2>{name}</h2>
+        <Bio>{bio}</Bio>
       </div>
-    </li>
+    </UserCard>
   )
 }

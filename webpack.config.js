@@ -24,14 +24,6 @@ module.exports = {
         }
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader'
-        ]
-      },
-      {
         test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2|webp)$/i,
         type: 'asset'
       },
