@@ -9,7 +9,7 @@ export const UserCard = styled.li`
 
 export const ImgProfile = styled.img`
   transition: all 300ms;
-  width: 20rem;
+  width: 15rem;
   border-radius: 2rem;
   object-fit: cover;
 

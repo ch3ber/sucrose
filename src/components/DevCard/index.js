@@ -5,7 +5,7 @@ export const DevCard = ({ photo, name, bio, github = '#' }) => {
   return (
     <UserCard>
       <a href={github}>
-        <ImgProfile src={photo} className='img-user' />
+        <ImgProfile src={photo} />
       </a>
       <div>
         <h2>{name}</h2>

@@ -7,7 +7,7 @@ export const Button = styled.h2`
   color: ${vars.backgroundColor};
   box-shadow: 6px 5px 0px 0 rgb(10, 108, 79);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
@@ -25,7 +25,7 @@ export const LinkButton = styled.a`
   color: ${vars.backgroundColor};
   box-shadow: 6px 5px 0px 0 rgb(10, 108, 79);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;

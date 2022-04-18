@@ -9,9 +9,9 @@ import { Button } from '../../components/Button/styles'
 
 export const Commands = () => {
   const DEFAULT_CONTENT = (
-    <div className='command-card'>
-      <p className='command-card__name'>Descubre!</p>
-      <p className='command-card__text'>Bienvenido a los comandos de sucrose</p>
+    <div>
+      <h2>Descubre!</h2>
+      <p>Bienvenido a los comandos de sucrose</p>
     </div>
   )
 
